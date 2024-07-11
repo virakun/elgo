@@ -45,7 +45,7 @@ sock.SendMessage(context.Background(), m.Msg.Info.Chat, &waProto.Message{
       },
       InteractiveMessage: &waProto.InteractiveMessage{
       Header: &waProto.InteractiveMessage_Header{
-        Title:        proto.String("Simple bot yang di buat oleh lui, Sedjak 1990."),
+        Title:        proto.String("Simple bot."),
         Subtitle:       proto.String(""),
         HasMediaAttachment: proto.Bool(false),
       },
@@ -53,7 +53,7 @@ sock.SendMessage(context.Background(), m.Msg.Info.Chat, &waProto.Message{
         Text: proto.String(""),
       },
       Footer: &waProto.InteractiveMessage_Footer{
-        Text: proto.String("©Create by Lui, 2024."),
+        Text: proto.String("©Create by Doinet, 2024."),
       },
       InteractiveMessage: &waProto.InteractiveMessage_NativeFlowMessage_{
         NativeFlowMessage: &waProto.InteractiveMessage_NativeFlowMessage{
@@ -62,8 +62,8 @@ sock.SendMessage(context.Background(), m.Msg.Info.Chat, &waProto.Message{
           Name: proto.String("cta_url"),
           ButtonParamsJson: proto.String(`{
             "display_text": "error? Chat Me!",
-            "url": "https://wa.me/6282146092695",
-            "merchant_url":"https://wa.me/6282146092695"
+            "url": "https://wa.me/818035176159",
+            "merchant_url":"https://wa.me/818035176159"
           }`),
           },
           {
